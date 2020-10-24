@@ -1,0 +1,132 @@
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+  <style>
+
+  .button1 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 5px;
+    cursor: pointer;
+    background-color: #EAEAEA;
+  }
+  .button2 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .inline {
+    display: inline-block;
+
+  }
+
+  h1 {text-align: center;}
+
+  p {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin:0 auto;
+    width:550px;
+  }
+
+  .status {
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin:0 auto;
+    width:550px;
+  }
+
+  .resultTitle {
+    text-align: left;
+    border: none;
+    padding: 10px;
+    margin:0 auto;
+
+  }
+
+  p.resultDescrip {
+    /*
+    border: 1px solid black;
+    padding: 10px;
+    height: 75px;
+    position: relative;
+    left: 50px; */
+    position: relative;
+    right: -100px;
+    height: 75px;
+    width: 350px;
+    text-align: left;
+  }
+
+  button {align: center;}
+
+  input {width: 300px;}
+
+
+  </style>
+
+
+
+
+
+<br>
+
+<div id="start" class="text-center">
+  <h1>Recommendr</h1>
+  <p>Running low on game or comic ideas?
+    You’re in the right place! Enter a movie
+    of your liking and Recommendr will find you your next obsession. </p>
+<!--  <button class="button1">History</button>
+  <button class="button1">Popular</button>
+  <button class="button1">Store</button>  -->
+</div>
+<br><br>
+
+<div class="text-center">
+
+  <label for="fname">Movie Title:</label>
+  <input type="text" id="fname" name="fname" value="" style="">
+  <button id="submit">Search</button>
+</div>
+
+<br><br><br><br><br><br>
+<div ><p id=status_ class="status">Current Status: </p></div>
+<br><br>
+<hr>
+<div class="text-center" class="inline" id="results">
+  <h1>Results</h1>
+  <!-- <p class="resultTitle">Game Title</p>
+  <p class="resultDescrip" >Description: this game because..... </p> -->
+</div>
+<!-- <br>
+<div class="text-center" class="inline">
+  <p class="resultTitle">Comic Title</p>
+  <p class="resultDescrip" >Description: this comic because..... </p>
+</div> -->
+
+<!--  <button>  <a href="https://acurtis55.wixsite.com/mysite/result">Submit</a></button>-->
+<!-- <form action="index.html"> </form> -->
+
+<script src="API.js"></script>
+</body>
+</html>
